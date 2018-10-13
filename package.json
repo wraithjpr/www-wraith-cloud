@@ -1,0 +1,19 @@
+{
+  "name": "www-wraith-cloud",
+  "version": "1.0.0",
+  "description": "Public static website content for www.wraith.cloud",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/wraithjpr/www-wraith-cloud.git"
+  },
+  "author": "James Wraith",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/wraithjpr/www-wraith-cloud/issues"
+  },
+  "homepage": "https://github.com/wraithjpr/www-wraith-cloud#readme"
+}
