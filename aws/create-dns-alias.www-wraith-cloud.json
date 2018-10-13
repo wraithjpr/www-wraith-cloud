@@ -1,0 +1,17 @@
+{
+  "Comment": "Create DNS alias to map www.wraith.com to www.wraith.cloud.s3-website.eu-west-2.amazonaws.com",
+  "Changes": [
+    {
+      "Action": "UPSERT",
+      "ResourceRecordSet": {
+        "Name": "www.wraith.cloud",
+        "Type": "A",
+        "AliasTarget": {
+          "HostedZoneId": "Z3GKZC51ZF0DB4",
+          "DNSName": "s3-website.eu-west-2.amazonaws.com",
+          "EvaluateTargetHealth": false
+        }
+      }
+    }
+  ]
+}
