@@ -1,0 +1,7 @@
+{
+  "LoggingEnabled": {
+    "TargetBucket": "logs.wraith.cloud",
+    "TargetPrefix": "root/"
+  }
+}
+
